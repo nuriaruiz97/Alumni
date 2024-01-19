@@ -7,7 +7,7 @@
 }
 .navbar {
   background: #91c120 !important;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid rgb(30, 30, 145);
   font-weight: bolder;
 }
 .navbar .nav-item {
@@ -28,12 +28,22 @@ header img {
 }
 
 section .card {
-  border: 3px solid #91c120;
+  border: 8px solid #91c120;
   padding: 5px;
   background-color: rgb(211, 211, 211);
 }
 
 section h1 {
   text-align: center;
-  margin: 20px;
+  margin: 60px;
+}
+
+.blueDecoration {
+  background-color: rgb(30, 30, 145);
+  height: 200px;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  display: flex;
+  align-self: center;
 }
