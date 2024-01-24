@@ -33,13 +33,6 @@ header img {
   display: flex;
   align-self: center;
 }
-footer {
-  background-color: #91c120;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border-top: 5px solid rgb(30, 30, 145);
-}
 
 h1 {
   text-align: center;
@@ -50,6 +43,18 @@ h1 {
   font-weight: 900;
   font-style: italic;
   color: rgb(255, 255, 255);
+}
+
+section {
+  background-color:;
+}
+
+footer {
+  background-color: #91c120;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 5px solid rgb(30, 30, 145);
 }
 
 footer p {
