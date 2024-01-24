@@ -11,11 +11,11 @@
   margin: 0 0 40px 0;
 }
 .navbar .nav-item {
-  margin: 0 30px;
+  margin: 0 40px;
 }
 
 .navbar .nav-link:hover {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajusta los valores según tus necesidades */
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); /* Ajusta los valores según tus necesidades */
 }
 
 header img {
@@ -52,14 +52,45 @@ section h1 {
   justify-content: space-evenly;
   gap: 20px;
 }
+
+.card img {
+  border-color: 1px solid rgb(105, 105, 105);
+  border-radius: 5px;
+}
 .card:hover {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajusta los valores según tus necesidades */
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); /* Ajusta los valores según tus necesidades */
 }
 
 section .card {
   border: 8px solid #91c120;
   padding: 5px;
   background-color: rgb(211, 211, 211);
+}
+
+.card-text {
+  border-bottom: 1px solid rgb(105, 105, 105);
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+section .card-body p:nth-child(2) {
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.btn-primary {
+  margin-top: 180px;
+  display: flex;
+  float: right;
 }
 
 .blueDecoration {
@@ -70,4 +101,58 @@ section .card {
   position: absolute;
   display: flex;
   align-self: center;
+}
+
+.specialCard {
+  border: 2px solid #929292;
+  background-color: rgb(211, 211, 211);
+  margin: 60px auto;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+article:nth-child(3) img {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+article:nth-child(4) {
+  background-color: rgb(30, 30, 145);
+  color: white;
+  padding: 40px 80px 40px 80px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+article:nth-child(4) ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+section:nth-last-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #91c120;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 5px solid rgb(30, 30, 145);
+}
+
+footer p {
+  font-size: large;
 }
