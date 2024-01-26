@@ -19,6 +19,13 @@
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); /* Ajusta los valores según tus necesidades */
 }
 
+.formImage {
+  border: 8px solid #91c120;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+}
+
 header img {
   width: 100%;
 }
@@ -51,10 +58,12 @@ section {
 
 footer {
   background-color: #91c120;
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: space-around;
   border-top: 5px solid rgb(30, 30, 145);
+  flex-direction: row !important;
+  margin: 0;
 }
 
 footer p {

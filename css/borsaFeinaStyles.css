@@ -1,6 +1,7 @@
 * {
   border: 0;
   margin: 0;
+  padding: 0;
   scroll-behavior: smooth;
   text-decoration: none;
 }
@@ -26,19 +27,12 @@ header img {
 .logoHeader {
   border: 10px solid rgb(255, 255, 255);
   border-radius: 50%;
-  margin: 0 40px;
+  margin: 20px 40px;
   z-index: 2;
   position: absolute;
   right: 0;
   display: flex;
   align-self: center;
-}
-footer {
-  background-color: #91c120;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border-top: 5px solid rgb(30, 30, 145);
 }
 
 h1 {
@@ -50,6 +44,44 @@ h1 {
   font-weight: 900;
   font-style: italic;
   color: rgb(255, 255, 255);
+}
+
+.container {
+  background-color: rgb(211, 211, 211);
+  border: 2px solid rgb(105, 105, 105);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  margin: 30px;
+}
+
+.card {
+  margin: 10px 0px;
+  border: 2px solid rgb(105, 105, 105) !important;
+  border-radius: 20px !important;
+}
+
+.card img {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  display: flex;
+  float: right;
+}
+
+footer {
+  background-color: #91c120;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 5px solid rgb(30, 30, 145);
+  flex-direction: row !important;
+  margin: 0;
 }
 
 footer p {
